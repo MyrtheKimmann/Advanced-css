@@ -1,0 +1,40 @@
+/* variables */
+
+$body-backround: #c3cfe2;
+$white: #fff;
+$purple: #686de0;
+$blog: #e17b77;
+$twitter: #00aced;
+$linkedin: #007bb6;
+$facebook: #3b5998;
+$github: #333;
+
+$font-family:  Arial, Helvetica, sans-serif;
+
+/* mixins */
+
+@mixin h1Center {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+@mixin wrapper {
+    width: 330px;
+    border-radius: 4%;
+    position: absolute;
+}
+
+@mixin text {
+    padding: 20px 35px;
+    margin: 20px;
+}
+
+@mixin position {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
